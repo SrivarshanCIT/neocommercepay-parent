@@ -106,7 +106,7 @@ services:
     ports:
       - "8081:8081"
     environment:
-      DATABASE_URL: jdbc:postgresql://postgres:5432/neocommercepay_users
+      DATABASE_URL: jdbc:postgresql://dpg-d5ucnr14tr6s73elq6v0-a:5432/neocommercepay_users
       DATABASE_USER: postgres_user
       DATABASE_PASSWORD: Tut7zfgs708Jr1mxcxFItUSBuATyrxIq
       KAFKA_BROKER: kafka:9092
@@ -155,7 +155,7 @@ services:
     ports:
       - "8083:8083"
     environment:
-      DATABASE_URL: jdbc:postgresql://postgres:5432/neocommercepay_orders
+      DATABASE_URL: jdbc:postgresql://dpg-d5ucnr14tr6s73elq6v0-a:5432/neocommercepay_orders
       DATABASE_USER: postgres_user
       DATABASE_PASSWORD: Tut7zfgs708Jr1mxcxFItUSBuATyrxIq
       KAFKA_BROKER: kafka:9092
@@ -181,7 +181,7 @@ services:
     ports:
       - "8084:8084"
     environment:
-      DATABASE_URL: jdbc:postgresql://postgres:5432/neocommercepay_payments
+      DATABASE_URL: jdbc:postgresql://dpg-d5ucnr14tr6s73elq6v0-a:5432/neocommercepay_payments
       DATABASE_USER: postgres_user
       DATABASE_PASSWORD: Tut7zfgs708Jr1mxcxFItUSBuATyrxIq
       KAFKA_BROKER: kafka:9092
