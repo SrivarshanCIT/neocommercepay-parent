@@ -6,7 +6,7 @@ services:
     container_name: neocommercepay-postgres
     environment:
       POSTGRES_USER: postgres_user
-      POSTGRES_PASSWORD: postgres_password
+      POSTGRES_PASSWORD: Tut7zfgs708Jr1mxcxFItUSBuATyrxIq
       POSTGRES_MULTIPLE_DATABASES: neocommercepay_users,neocommercepay_orders,neocommercepay_payments
     ports:
       - "5432:5432"
@@ -108,7 +108,7 @@ services:
     environment:
       DATABASE_URL: jdbc:postgresql://postgres:5432/neocommercepay_users
       DATABASE_USER: postgres_user
-      DATABASE_PASSWORD: postgres_password
+      DATABASE_PASSWORD: Tut7zfgs708Jr1mxcxFItUSBuATyrxIq
       KAFKA_BROKER: kafka:9092
       JWT_SECRET: ${JWT_SECRET:-neocommercepay-jwt-secret-key-change-in-production-minimum-256-bits-required}
     networks:
@@ -157,7 +157,7 @@ services:
     environment:
       DATABASE_URL: jdbc:postgresql://postgres:5432/neocommercepay_orders
       DATABASE_USER: postgres_user
-      DATABASE_PASSWORD: postgres_password
+      DATABASE_PASSWORD: Tut7zfgs708Jr1mxcxFItUSBuATyrxIq
       KAFKA_BROKER: kafka:9092
       JWT_SECRET: ${JWT_SECRET:-neocommercepay-jwt-secret-key-change-in-production-minimum-256-bits-required}
     networks:
@@ -183,7 +183,7 @@ services:
     environment:
       DATABASE_URL: jdbc:postgresql://postgres:5432/neocommercepay_payments
       DATABASE_USER: postgres_user
-      DATABASE_PASSWORD: postgres_password
+      DATABASE_PASSWORD: Tut7zfgs708Jr1mxcxFItUSBuATyrxIq
       KAFKA_BROKER: kafka:9092
       JWT_SECRET: ${JWT_SECRET:-neocommercepay-jwt-secret-key-change-in-production-minimum-256-bits-required}
     networks:
